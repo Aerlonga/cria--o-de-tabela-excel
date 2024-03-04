@@ -58,9 +58,9 @@ def unir_planilhas(diretorio_origem, diretorio_destino, nome_arquivo_destino):
     df_final.to_excel(caminho_destino, index=False, engine='openpyxl')
     print(f"Planilhas unidas e salvas em: {caminho_destino}")
 
-# Exemplo de uso
+
 diretorio_origem_planilhas = 'C:/Users/aerlon.alves/Desktop/DFI-DESKTOPS/PlanilhasExtraidas'
-diretorio_destino_uniao = 'C:/Users/aerlon.alves/Desktop/DFI-DESKTOPS'
+diretorio_destino_uniao = 'C:/Users/aerlon.alves/Desktop/DFI-DESKTOPS/EXCEL'
 nome_arquivo_destino = 'PlanilhaUnida.xlsx'
 
 unir_planilhas(diretorio_origem_planilhas, diretorio_destino_uniao, nome_arquivo_destino)
